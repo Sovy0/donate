@@ -1,6 +1,6 @@
 var userAgent = navigator.userAgent;
 var API_BASE_URL = 'list.donate.freelxy.site';
-var App_Key = 'reFNlSNCGmFLn0EDyN7pGFLq'
+var App_Key = env.APP_KEY
 
 // 判断是否在微信内
 if (userAgent.indexOf("MicroMessenger") !== -1) {
