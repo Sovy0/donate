@@ -125,7 +125,7 @@ function submitForm() {
 		headers: {
 			'Content-Type': 'application/json',
 			'X-LC-Sign': sign + ',' + timestamp,
-			'X-LC-Id': 'XsJ7yqBSeG6Mu9ItZBjeKmuy-MdYXbMMI',
+			'X-LC-Id': 'kRn5GiOByyJWfWVSoLqr3ZdP-MdYXbMMI',
 		},
 		body: JSON.stringify(data)
 	})
@@ -193,7 +193,7 @@ const fetchData = async () => {
 			headers: {
 				'Content-Type': 'application/json',
 				'X-LC-Sign': sign + ',' + timestamp,
-				'X-LC-Id': 'XsJ7yqBSeG6Mu9ItZBjeKmuy-MdYXbMMI',
+				'X-LC-Id': 'kRn5GiOByyJWfWVSoLqr3ZdP-MdYXbMMI',
 			}
 		})
 		const data = await response.json();
