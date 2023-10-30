@@ -1,5 +1,5 @@
 var userAgent = navigator.userAgent;
-var API_BASE_URL = 'donate.freelxy.site';
+var API_BASE_URL = 'list.donate.freelxy.site';
 var App_Key = 'reFNlSNCGmFLn0EDyN7pGFLq'
 
 // 判断是否在微信内
