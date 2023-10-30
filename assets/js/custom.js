@@ -1,6 +1,6 @@
 var userAgent = navigator.userAgent;
-var API_BASE_URL = 'lecdapi.yaofan.site';
-var App_Key = '7iudhWquXYN0uToAuxseBFJe'
+var API_BASE_URL = 'donate.freelxy.site';
+var App_Key = 'reFNlSNCGmFLn0EDyN7pGFLq'
 
 // 判断是否在微信内
 if (userAgent.indexOf("MicroMessenger") !== -1) {
