@@ -1,6 +1,7 @@
 var userAgent = navigator.userAgent;
 var API_BASE_URL = 'list.donate.freelxy.site';
-var App_Key = env.APP_KEY
+var App_Key = 'reFNlSNCGmFLn0EDyN7pGFLq';
+var App_ID = 'kRn5GiOByyJWfWVSoLqr3ZdP-MdYXbMMI'
 
 // 判断是否在微信内
 if (userAgent.indexOf("MicroMessenger") !== -1) {
@@ -125,7 +126,7 @@ function submitForm() {
 		headers: {
 			'Content-Type': 'application/json',
 			'X-LC-Sign': sign + ',' + timestamp,
-			'X-LC-Id': 'kRn5GiOByyJWfWVSoLqr3ZdP-MdYXbMMI',
+			'X-LC-Id': App_ID,
 		},
 		body: JSON.stringify(data)
 	})
@@ -193,7 +194,7 @@ const fetchData = async () => {
 			headers: {
 				'Content-Type': 'application/json',
 				'X-LC-Sign': sign + ',' + timestamp,
-				'X-LC-Id': 'kRn5GiOByyJWfWVSoLqr3ZdP-MdYXbMMI',
+				'X-LC-Id': App_ID,
 			}
 		})
 		const data = await response.json();
